@@ -2,7 +2,7 @@
 /* ============================================================================
    ZILD — PRODUCT CATALOG
    ----------------------------------------------------------------------------
-   Current ZILD collection: 4 T-shirts
+      Current ZILD collection: 10 T-shirts
    ============================================================================ */
 
 const PRODUCTS = [
@@ -165,6 +165,51 @@ const PRODUCTS = [
     shortDescription: "A clean white Spider-inspired streetwear T-shirt.",
     description: "A clean ZILD T-shirt featuring a Spider-inspired design on a white base. A versatile streetwear piece for everyday casual outfits.",
     images: ["/assets/products/mada-tee-008-1.jpg"],
+    sizes: ["S", "M", "L", "XL"],
+    colors: [],
+    featured: true,
+    available: true,
+    badge: "NEW",
+    material: "",
+    fit: "",
+    careInstructions: ""
+  },
+    {
+    id: "zild-tee-009",
+    slug: "zild-shadow-tee",
+    name: "ZILD Shadow Tee",
+    price: 600,
+    currency: "BDT",
+    category: "T-Shirts",
+    shortDescription: "A clean everyday ZILD Essential Tee.",
+    description:
+      "A versatile ZILD Essential Tee designed for everyday wear and casual streetwear styling.",
+    images: [
+      "/assets/products/zild-tee-009.jpg"
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: [],
+    featured: true,
+    available: true,
+    badge: "NEW",
+    material: "",
+    fit: "",
+    careInstructions: ""
+  },
+
+  {
+    id: "zild-tee-010",
+    slug: "zild-origin-tee",
+    name: "ZILD Origin Tee",
+    price: 600,
+    currency: "BDT",
+    category: "T-Shirts",
+    shortDescription: "A classic ZILD streetwear T-shirt.",
+    description:
+      "A classic ZILD T-shirt designed for comfortable everyday wear and timeless streetwear styling.",
+    images: [
+      "/assets/products/zild-tee-010.jpg"
+    ],
     sizes: ["S", "M", "L", "XL"],
     colors: [],
     featured: true,
